@@ -14,12 +14,12 @@ const Portfolio = () => {
 						fontWeight={500}>
 						VISIT MY PORTFOLIO AND KEEP YOUR FEEDBACK
 					</Text>
-					<Text m={"auto"} mt={10} fontWeight={600} fontSize={36}>
+					<Text mt={10} fontWeight={600} fontSize={36}>
 						My Portfolio
 					</Text>
 					<Flex
 						flexDirection={{ base: "column", md: "row" }} // Responsive direction
-						gap={6} // Adjust the gap between items
+						gap={4} // Adjust the gap between items
 					>
 						<CustomBackground
 							title='Crpto Tracking-app'

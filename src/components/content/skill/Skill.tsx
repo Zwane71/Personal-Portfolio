@@ -19,7 +19,7 @@ const Skill = () => {
 			<div>
 				<Flex flexDirection='column'>
 					<Text
-						ml={44}
+						ml={20}
 						mt={16}
 						fontSize={20}
 						fontWeight={400}
@@ -27,7 +27,7 @@ const Skill = () => {
 						color='#ff014f'>
 						Skills
 					</Text>
-					<Text ml={44} fontSize={40} fontWeight={600}>
+					<Text ml={20} fontSize={40} fontWeight={600}>
 						{" "}
 						What I do{" "}
 					</Text>
