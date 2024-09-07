@@ -20,7 +20,7 @@ const theme = extendTheme({ colors });
 
 export const App = () => (
 	<ChakraProvider theme={theme}>
-		<Flex bg='#ecf0f3' flexDirection='column'>
+		<Flex bg='#ecf0f3' flexDirection='column' w={"fit"}>
 			<Navbar />
 			<section id='home'>
 				{/* Home content */}
