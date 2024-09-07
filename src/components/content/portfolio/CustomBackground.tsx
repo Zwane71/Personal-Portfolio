@@ -28,7 +28,6 @@ const CustomBackground: React.FC<CustomBackgroundProps> = ({
 			borderRadius='md'
 			boxShadow='xl'
 			minHeight='200px'
-			ml={3}
 			w={256}
 			textAlign='center'
 			transition='background-color 0.3s ease' // Smooth transition
