@@ -5,7 +5,7 @@ export default function LeftContent() {
 		<Flex gap={4}>
 			<Heading color='black' fontWeight={600}>
 				{" "}
-				DevFolio
+				MakZwane71
 			</Heading>
 		</Flex>
 	);

@@ -70,7 +70,7 @@ function Contact() {
 			<Box
 				bg={"#f0f3f5"}
 				boxShadow={"xl"}
-				w={500}
+				w={{ base: "90%", sm: "80%", md: "70%", lg: "50%", xl: "40%" }}
 				mb={32}
 				mx='auto'
 				p={4}

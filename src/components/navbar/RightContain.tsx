@@ -47,6 +47,7 @@ export default function RightContent({ items }: RightContentProps) {
 			{/* List of items */}
 			<List
 				gap={3}
+				mr={16}
 				flexDirection={{ base: "column", md: "row" }} // Adjust flex direction for mobile vs desktop
 				position={{ base: "absolute", md: "static" }}
 				bg={{ base: "white", md: "transparent" }}
