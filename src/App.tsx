@@ -7,6 +7,7 @@ import Portfolio from "./components/content/portfolio/Portfolio";
 import Skill from "./components/content/skill/Skill";
 import About from "./components/content/About/About";
 import Contact from "./components/contact/contact";
+import { Analytics } from "@vercel/analytics/react";
 
 const colors = {
 	brand: {
@@ -41,5 +42,6 @@ export const App = () => (
 				<Contact />
 			</section>
 		</Flex>
+		<Analytics />
 	</ChakraProvider>
 );
